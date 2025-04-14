@@ -1,0 +1,50 @@
+# =========================
+# Java + Maven
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven logs
+.mvn/
+!**/mvnw
+!**/mvnw.cmd
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+*.pid
+
+# =========================
+# OS & Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# =========================
+# Docker
+# =========================
+*.env
+.env
+docker-compose.override.yml
+
+# =========================
+# Uploaded Files / Volumes
+# =========================
+uploaded-files/
